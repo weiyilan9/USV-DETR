@@ -1,0 +1,23 @@
+# Runtime dependencies for a cloned repository.
+#   pip install -r requirements.txt
+#
+# Installing the package instead with `pip install -e .` pulls the same list
+# from pyproject.toml, so only one of the two is needed.
+#
+# GPU users should install torch and torchvision first, following the
+# selector at https://pytorch.org, then run this file. Already satisfied
+# requirements are left untouched, so an existing CUDA build is not replaced
+# by the default wheel.
+#
+# The model definition comes from the upstream RT-DETRv4 repository, which
+# is not on PyPI. Clone it separately as described in the README.
+
+numpy>=1.22
+scipy>=1.8
+pandas>=1.4
+soundfile>=0.11
+matplotlib>=3.5
+opencv-python>=4.6
+openpyxl>=3.0
+torch>=2.0
+torchvision>=0.15
