@@ -6,13 +6,14 @@ enough to feed downstream acoustic analysis. The model is built on RT-DETR with
 a high-resolution P2 feature layer and the DEIM training framework, and we have
 tested it on both rat and mouse spectrograms.
 
-<p align="center">
-  <img src="configs/USV-DETR_model_structure.jpg"
-       alt="USV-DETR model structure" width="80%">
+<p align="center"> 
+  <img src="configs/USV-DETR_model_structure.jpg" 
+       alt="USV-DETR model architecture" width="80%"> 
+  <br> <sub>USV-DETR model architecture.</sub>
 </p>
 
 It is open source and free to use. The quickest way to try it is the notebook in
-[`demo/`](demo), which runs end to end in Google Colab without any local setup.
+[`demo/`](demo), which runs in Google Colab without any local setup.
 Beyond that, adapt it to your own setup, or take the checkpoint as a starting
 point for fine-tuning on your own data. We hope it is useful in your research.
 
