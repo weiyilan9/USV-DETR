@@ -7,7 +7,7 @@ a high-resolution P2 feature layer and the DEIM training framework, and we have
 tested it on both rat and mouse spectrograms.
 
 <p align="center">
-  <img src="configs/USV-DETR_model_structure.png"
+  <img src="configs/USV-DETR_model_structure.jpg"
        alt="USV-DETR model structure" width="80%">
 </p>
 
